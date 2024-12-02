@@ -1,0 +1,73 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('SIT\ GRP.jpg'); /* أضف صورة الخلفية هنا */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+}
+
+/* الرأس */
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* شفافية للرأس */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+/* المحتوى الرئيسي */
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* خلفية شفافة */
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* العناوين */
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* قائمة الدروس */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* التذييل */
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* شفافية للتذييل */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
